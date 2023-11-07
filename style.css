@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body {
+    
+} */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 140px 140px 140px;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: white;
+}
+#header_grid {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+#logo_home {
+    font-family: 'DM Sans', sans-serif; 
+}
+#header_links {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif; 
+}
+.social_links {
+    display: flex;
+    justify-content: space-between;
+}
+#home_grid {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+#photo_border {
+    width: fit-content;
+}
+#photo_radius {
+    border-radius: 100%;
+    border: 6px rgb(0, 255, 0) solid;
+    padding: 2px;
+}
+h1 {
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    color: #42446E;
+}
+#aboutme1_grid {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+#aboutme1_flex {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: #42446E;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+.work_flex1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.work_flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+.work_flex3 {
+    display: flex;
+    justify-content: space-between;
+}
+.full_time {
+    background-color: #D7FFE0;
+    color: #018C0F;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+.company_name {
+    color: var(--light-Content, #979797);
+    font-weight: 500;
+    font-size: 15px;
+}
+#stack1_flex {
+    display: flex;
+    flex-direction: column;
+}
+#stack_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.grid_images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/* main {
+    
+} */
+footer {
+    background-color: aqua;
+}
